@@ -195,3 +195,9 @@
         font-size:12px
     }
 }
+
+.img-franja{
+    position: absolute;
+    max-width: 400%;
+    border: none;
+}

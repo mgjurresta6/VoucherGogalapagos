@@ -95,8 +95,8 @@ td {
     border-radius: 15px;
 }
 
-.info-table{
-    border-radius: 15px;
+.info-table th{ 
+    border-radius: 15%;
     text-align: center;
 
 }
