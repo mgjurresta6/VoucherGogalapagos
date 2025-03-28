@@ -78,10 +78,10 @@ table {
 }
 
 th {
-    background-color: #f2f2f2;
+
     text-align: center;
     padding: 12px;
-    border-bottom: 2px solid #ddd;
+
     font-weight: bold;
     color: #2c3e50;
 
@@ -94,13 +94,6 @@ td {
     text-align: center;
     border-radius: 15px;
 }
-
-.info-table th{ 
-    border-radius: 15%;
-    text-align: center;
-
-}
-
 
 .flight-schedule {
     margin: 25px 0;
@@ -141,3 +134,34 @@ border: none;
     text-align: center;
 }
 
+.info-table thead tr {
+    background-color: #f2f2f2;
+    border-radius: 20px 20px 0 0;
+    overflow: hidden; 
+}
+
+.info-table th {
+    border: none !important;
+    position: relative;
+}
+
+.info-table th:first-child {
+    border-radius: 20px 0 0 20px;
+}
+
+.info-table th:last-child {
+    border-radius: 0 20px 20px 0;
+}
+
+.franja-img {
+    width: 100%;
+    display: block;
+    margin: 0;
+    position: relative;
+    bottom: 0;
+    left: 0;
+  
+  }
+  .card-footerimg {
+    overflow: hidden;
+  }
